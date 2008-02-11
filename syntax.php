@@ -23,12 +23,12 @@ class syntax_plugin_comment extends DokuWiki_Syntax_Plugin {
      */
     function getInfo(){
         return array(
-            'author' => 'Esther Brunner',
-            'email'  => 'wikidesign@gmail.com',
-            'date'   => '2006-12-02',
+            'author' => 'Gina Häußge, Michael Klier, Esther Brunner',
+            'email'  => 'dokuwiki@chimeric.de',
+            'date'   => '2008-02-11',
             'name'   => 'Hidden Comment Plugin',
             'desc'   => 'allows hidden comments in the wiki source',
-            'url'    => 'http://www.wikidesign.ch/en/plugin/comment/start',
+            'url'    => 'http://wiki.splitbrain.org/plugin:comment',
         );
     }
  
