@@ -25,7 +25,7 @@ class syntax_plugin_comment extends DokuWiki_Syntax_Plugin {
         return array(
             'author' => 'Gina Häußge, Michael Klier, Esther Brunner',
             'email'  => 'dokuwiki@chimeric.de',
-            'date'   => '2008-02-11',
+            'date'   => @file_get_contents(DOKU_PLUGIN . 'comment/VERSION'),
             'name'   => 'Hidden Comment Plugin',
             'desc'   => 'allows hidden comments in the wiki source',
             'url'    => 'http://wiki.splitbrain.org/plugin:comment',
