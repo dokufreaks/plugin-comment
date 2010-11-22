@@ -18,20 +18,6 @@ require_once(DOKU_PLUGIN.'syntax.php');
  */
 class syntax_plugin_comment extends DokuWiki_Syntax_Plugin {
  
-    /**
-     * return some info
-     */
-    function getInfo(){
-        return array(
-            'author' => 'Gina Häußge, Michael Klier, Esther Brunner',
-            'email'  => 'dokuwiki@chimeric.de',
-            'date'   => @file_get_contents(DOKU_PLUGIN . 'comment/VERSION'),
-            'name'   => 'Hidden Comment Plugin',
-            'desc'   => 'allows hidden comments in the wiki source',
-            'url'    => 'http://wiki.splitbrain.org/plugin:comment',
-        );
-    }
- 
     function getType(){ return 'substition'; }
     function getSort(){ return 321; }
     
