@@ -25,7 +25,7 @@ class syntax_plugin_comment extends DokuWiki_Syntax_Plugin {
         $this->Lexer->addSpecialPattern("^/\*.*?\*|\s+/\*.*?\*/", $mode, 'plugin_comment');
     }
     
-    function handle($match, $state, $pos, &$handler){ return ''; }            
-    function render($mode, &$renderer, $data) { return true; }
+    function handle($match, $state, $pos, Doku_Handler $handler){ return ''; }            
+    function render($mode, Doku_Renderer $renderer, $data) { return true; }
 }
 // vim:ts=4:sw=4:et:enc=utf-8:
