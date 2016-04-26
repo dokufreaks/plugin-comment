@@ -2,7 +2,7 @@
 base   comment
 author Gina Häußge, Michael Klier
 email  dokuwiki@chimeric.de
-date   2009-02-06
+date   2016-04-26
 name   comment
 desc   Add comments/notes to your wiki source that won't be shown on the page.
 url    http://www.dokuwiki.org/plugin:comment
